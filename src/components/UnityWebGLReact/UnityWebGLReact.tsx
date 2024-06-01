@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { Unity, useUnityContext } from 'react-unity-webgl';
 import styles from './app.module.css';
 
-const App = () => {
+export default () => {
   const {
     unityProvider,
     isLoaded,
@@ -126,4 +126,3 @@ const App = () => {
   );
 };
 
-export { App };
